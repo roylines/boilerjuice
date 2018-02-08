@@ -1,0 +1,35 @@
+{
+  "name": "boilerjuice",
+  "version": "1.0.0",
+  "description": "api into boilerjuice uk heating oil charts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roylines/boilerjuice.git"
+  },
+  "keywords": [
+    "boilerjuice",
+    "heating",
+    "oil",
+    "prices"
+  ],
+  "author": "Roy Lines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roylines/boilerjuice/issues"
+  },
+  "engines": {
+    "node": ">=6.10.3"
+  },
+  "homepage": "https://github.com/roylines/boilerjuice#readme",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "request": "2.83.0"
+  }
+}
