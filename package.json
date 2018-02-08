@@ -4,7 +4,7 @@
   "description": "api into boilerjuice uk heating oil charts",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/roylines/boilerjuice#readme",
   "devDependencies": {
-    "chai": "*",
-    "mocha": "*"
+    "jest": "*",
+    "chai": "*"
   },
   "dependencies": {
     "request": "2.83.0"
